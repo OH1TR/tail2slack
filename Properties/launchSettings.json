@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "tail2slack": {
+      "commandName": "Project",
+      "commandLineArgs": "-c C:\\Projects\\tail2slack\\config.json"
+    }
+  }
+}
