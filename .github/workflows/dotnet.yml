@@ -30,7 +30,7 @@ jobs:
     - name: Build
       shell: bash
       run: |
-        cp config.json ./bin/Debug/net6.0/config.json.sample
+        cp config.json ./bin/Release/net6.0/config.json.sample
         7z a -tzip "Release.zip" "./bin/Release/net6.0/*"
         
     - name: 'Get Previous tag'
