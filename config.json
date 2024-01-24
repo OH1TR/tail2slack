@@ -1,0 +1,19 @@
+{
+  "SlackAPI": "https://hooks.slack.com/services/x/x/x",
+  "SlackChannel": "#x",
+  "Watch": [
+    {
+      "Filename": "c:\\temp\\test.txt",
+      "Match": [
+        {
+          "Match": "dummy",
+          "Action": "ACCEPT"
+        },
+        {
+          "Match": ".*",
+          "Action": "DROP"
+        }
+      ]
+    }
+  ]
+}
